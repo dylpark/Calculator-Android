@@ -22,8 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"
         android:layout_weight="1"
-        android:orientation="horizontal"
-        android:background="@color/background">
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/btnSeven"
@@ -31,8 +30,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="7"
-            android:onClick="onDigit"
-            android:background="@color/btnBackground"/>
+            android:onClick="onDigit"/>
 
         <Button
             android:id="@+id/btnEight"
@@ -40,8 +38,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="8"
-            android:onClick="onDigit"
-            android:background="@color/btnBackground"/>
+            android:onClick="onDigit"/>
 
         <Button
             android:id="@+id/btnNine"
@@ -49,8 +46,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="9"
-            android:onClick="onDigit"
-            android:background="@color/btnBackground"/>
+            android:onClick="onDigit"/>
 
         <Button
             android:id="@+id/btnSlash"
@@ -58,8 +54,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="/"
-            android:onClick="onDigit"
-            android:background="@color/btnBackground"/>
+            android:onClick="onDigit"/>
 
 
     </LinearLayout>
