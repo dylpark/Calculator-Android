@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="@color/background">
+    android:background="@color/btnBackground">
     
     <TextView
         android:id="@+id/tvInput"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/btnBackground"
         android:textSize="48sp"
         android:maxLength="12" />
 
@@ -159,7 +159,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="."
-            android:onClick="onDigit"/>
+            android:onClick="onDecimal"/>
 
         <Button
             android:id="@+id/btnZero"
@@ -175,7 +175,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="CLR"
-            android:onClick="onDigit"/>
+            android:onClick="onClear"/>
 
         <Button
             android:id="@+id/btnAdd"
