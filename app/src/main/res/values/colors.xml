@@ -6,6 +6,8 @@
     <color name="colorAccent">#F2994A</color>
     <color name="purpleColor">#BB6BD9</color>
     <color name="greenColor">#6FCF97</color>
-    <color name="background">#F0F0F0</color>
+    <color name="background">#C9C9C9</color>
+    <color name="btnBackground">#FCFCFC</color>
+
 
 </resources>
