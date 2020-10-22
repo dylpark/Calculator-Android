@@ -15,7 +15,9 @@
         android:layout_height="250dp"
         android:background="@color/btnBackground"
         android:textSize="48sp"
-        android:maxLength="12" />
+        android:maxLength="12"
+        android:padding="10dp"
+        android:gravity="right|center_vertical|bottom"/>
 
     <!--Row 1-->
     <LinearLayout
